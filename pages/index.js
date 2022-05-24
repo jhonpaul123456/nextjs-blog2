@@ -22,6 +22,7 @@ export default function Home({ allPostsData }) {
       {/* Add this <section> tag below the existing <section> tag */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blogs this is a new heading</h2>
+        <h3>This is for testing only</h3>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
               <li className={utilStyles.listItem} key={id}>
